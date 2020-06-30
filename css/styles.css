@@ -119,9 +119,6 @@ ul {
 
 /* Nav*/
 
-.header-portfolio {
-  border-bottom: 1px solid #ececec;
-}
 .header > .container {
   display: flex;
   position: fixed;
