@@ -890,7 +890,7 @@ h4 {
 
 .checkbox-input:focus ~ .checkbox-icon,
 .checkbox-input:not(:placeholder-shown) ~ .checkbox-icon {
-  fill: var(--accent-color);
+  fill: var(--primary-white-color);
 }
 
 .comment {
