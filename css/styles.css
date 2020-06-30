@@ -655,7 +655,7 @@ main {
   margin-bottom: 50px;
 }
 
-button {
+.button-filters {
   display: inline-block;
   border-radius: 4px;
   border: 0;
@@ -674,12 +674,12 @@ button {
 
   background-color: var(--background-elements-color);
 }
-.button-filters:not(:last-child) {
+.button-item:not(:last-child) {
   margin-right: 8px;
 }
-button:focus,
-button:hover,
-button:active {
+.button-filters:focus,
+.button-filters:hover,
+.button-filters:active {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   border-radius: 4px;
