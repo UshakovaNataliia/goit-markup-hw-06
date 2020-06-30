@@ -890,7 +890,7 @@ h4 {
 
 .checkbox-input:focus ~ .checkbox-icon,
 .checkbox-input:not(:placeholder-shown) ~ .checkbox-icon {
-  fill: var(--primary-white-color);
+  fill: var(--accent-color);
 }
 
 .comment {
@@ -944,6 +944,7 @@ h4 {
   border-color: transparent;
   background-color: var(--accent-color);
   background-image: url(../images/agree-icon.svg);
+  fill: var(--primary-white-color);
   background-size: contain;
   background-origin: border-box;
 }
