@@ -644,22 +644,11 @@ main {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.subscribe-button::after {
-  content: "";
-  display: inline-flex;
-  vertical-align: middle;
-  background-image: url(../images/icon-send.svg);
-  background-size: contain;
-  margin-left: 10px;
-  width: 24px;
-  height: 24px;
-}
-/* .icon-send {
+
+.icon-send {
   fill: currentColor;
-  width: 24px;
-  height: 24px;
   margin-left: 10px;
-} */
+}
 /* Портфолио */
 
 .filters {
