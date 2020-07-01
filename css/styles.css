@@ -876,7 +876,9 @@ main {
 }
 .checkbox-input:focus + .checkbox-name,
 .checkbox-input:not(:placeholder-shown) + .checkbox-name {
-  transform: translate(-26px, calc(-200% - 8px));
+  top: 0;
+  left: 16px;
+  transform: translate(0, calc(-100% - 4px));
 
   font-size: 12px;
   line-height: 1.17;
