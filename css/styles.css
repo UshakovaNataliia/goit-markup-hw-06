@@ -873,7 +873,7 @@ main {
   color: var(--primary-white-color);
 }
 .checkbox-input:focus {
-  border-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 .checkbox-input:focus + .checkbox-name,
 .checkbox-input:not(:placeholder-shown) + .checkbox-name {
