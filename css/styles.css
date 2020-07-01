@@ -283,10 +283,7 @@ main {
   color: var(--secondary-text-color);
 }
 
-.container
-/* ,
-.section-title  */ {
-  /* display: flex; */
+.container {
   justify-content: center;
   text-align: center;
   width: 1200px;
