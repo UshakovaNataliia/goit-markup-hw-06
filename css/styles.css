@@ -843,8 +843,6 @@ main {
   margin-bottom: 28px;
   top: 0;
   left: 0;
-
-  /* transform: translateY(50%); */
 }
 .checkbox-input {
   width: 100%;
@@ -922,8 +920,7 @@ main {
   display: block;
   top: 0;
   left: 0;
-  padding-left: 40px;
-  transform: translateY(-50%);
+  padding-left: 10px;
   margin-bottom: 30px;
   width: 100%;
 
@@ -943,17 +940,16 @@ main {
   border: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-  padding: 0;
 }
 .agree-icon {
-  display: block;
   position: absolute;
+  display: block;
   top: 3px;
   left: 16px;
-  transform: translateX(50%);
   width: 16px;
   height: 15px;
   border-radius: 2px;
+  margin-right: 8px;
 
   border: 2px solid var(--secondary-text-color);
   background-color: var(--primary-white-color);
