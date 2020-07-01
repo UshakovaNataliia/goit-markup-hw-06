@@ -859,9 +859,9 @@ main {
 
 .checkbox-name {
   position: absolute;
-  top: 50%;
-  left: 42px;
-  transform: translateY(-50%);
+  top: 0;
+  left: 0;
+  transform: translate(42px, 12px);
 
   line-height: 1.14;
   letter-spacing: 0.01em;
@@ -878,7 +878,7 @@ main {
 }
 .checkbox-input:focus + .checkbox-name,
 .checkbox-input:not(:placeholder-shown) + .checkbox-name {
-  transform: translate(-26px, -38px);
+  transform: translate(16px, calc(-100% - 4px));
 
   font-size: 12px;
   line-height: 1.17;
